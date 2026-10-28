@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Optional: uncomment these if you do NOT want to upload large data or model files
+# data/raw/
+# data/processed/
+# models/*.pt
+# models/*.pth
+# models/*.onnx
